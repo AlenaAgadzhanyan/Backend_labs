@@ -1,0 +1,12 @@
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Common\bin\Debug\net9.0\UniverseLabs.Common.deps.json
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Common\bin\Debug\net9.0\UniverseLabs.Common.dll
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Common\bin\Debug\net9.0\UniverseLabs.Common.pdb
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Common\obj\Debug\net9.0\UniverseLabs.Common.csproj.AssemblyReference.cache
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Common\obj\Debug\net9.0\UniverseLabs.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Common\obj\Debug\net9.0\UniverseLabs.Common.AssemblyInfoInputs.cache
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Common\obj\Debug\net9.0\UniverseLabs.Common.AssemblyInfo.cs
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Common\obj\Debug\net9.0\UniverseLabs.Common.csproj.CoreCompileInputs.cache
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Common\obj\Debug\net9.0\UniverseLabs.Common.dll
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Common\obj\Debug\net9.0\refint\UniverseLabs.Common.dll
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Common\obj\Debug\net9.0\UniverseLabs.Common.pdb
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Common\obj\Debug\net9.0\ref\UniverseLabs.Common.dll

@@ -1,0 +1,15 @@
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Messages\bin\Debug\net9.0\UniverseLabs.Messages.deps.json
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Messages\bin\Debug\net9.0\UniverseLabs.Messages.dll
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Messages\bin\Debug\net9.0\UniverseLabs.Messages.pdb
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Messages\bin\Debug\net9.0\UniverseLabs.Oms.Models.dll
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Messages\bin\Debug\net9.0\UniverseLabs.Oms.Models.pdb
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Messages\obj\Debug\net9.0\UniverseLabs.Messages.csproj.AssemblyReference.cache
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Messages\obj\Debug\net9.0\UniverseLabs.Messages.GeneratedMSBuildEditorConfig.editorconfig
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Messages\obj\Debug\net9.0\UniverseLabs.Messages.AssemblyInfoInputs.cache
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Messages\obj\Debug\net9.0\UniverseLabs.Messages.AssemblyInfo.cs
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Messages\obj\Debug\net9.0\UniverseLabs.Messages.csproj.CoreCompileInputs.cache
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Messages\obj\Debug\net9.0\Universe.9B86C186.Up2Date
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Messages\obj\Debug\net9.0\UniverseLabs.Messages.dll
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Messages\obj\Debug\net9.0\refint\UniverseLabs.Messages.dll
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Messages\obj\Debug\net9.0\UniverseLabs.Messages.pdb
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Messages\obj\Debug\net9.0\ref\UniverseLabs.Messages.dll

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "UniverseLabs.Messages/1.0.0": {
+        "dependencies": {
+          "UniverseLabs.Oms.Models": "1.0.0"
+        },
+        "runtime": {
+          "UniverseLabs.Messages.dll": {}
+        }
+      },
+      "UniverseLabs.Oms.Models/1.0.0": {
+        "runtime": {
+          "UniverseLabs.Oms.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UniverseLabs.Messages/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UniverseLabs.Oms.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

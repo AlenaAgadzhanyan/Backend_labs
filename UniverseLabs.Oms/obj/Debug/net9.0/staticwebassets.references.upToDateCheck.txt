@@ -1,0 +1,3 @@
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Consumer\obj\Debug\net9.0\staticwebassets.build.json
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Consumer\obj\Debug\net9.0\staticwebassets.build.json
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Consumer\obj\Debug\net9.0\staticwebassets.build.json

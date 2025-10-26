@@ -1,0 +1,6 @@
+@UniverseLabs.Oms.Consumer_HostAddress = http://localhost:5001
+
+GET {{UniverseLabs.Oms.Consumer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
