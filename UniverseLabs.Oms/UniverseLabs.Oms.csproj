@@ -4,9 +4,20 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <EnableDefaultContentItems>false</EnableDefaultContentItems>
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="appsettings.Development.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoFixture" Version="4.18.1" />
     <PackageReference Include="Dapper" Version="2.1.6" />
     <PackageReference Include="FluentValidation" Version="11.11.0" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
@@ -20,7 +31,6 @@
     <ProjectReference Include="..\UniverseLabs.Oms.Models\UniverseLabs.Oms.Models.csproj" />
     <ProjectReference Include="..\UniverseLabs.Common\UniverseLabs.Common.csproj" />
     <ProjectReference Include="..\UniverseLabs.Messages\UniverseLabs.Messages.csproj" />
-    <!-- <ProjectReference Include="..\UniverseLabs.Oms.Consumer\UniverseLabs.Oms.Consumer.csproj" /> -->
   </ItemGroup>
 
 </Project>

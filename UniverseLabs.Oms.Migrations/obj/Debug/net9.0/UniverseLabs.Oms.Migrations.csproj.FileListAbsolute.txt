@@ -82,6 +82,7 @@ D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Migrations\
 D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Migrations\obj\Debug\net9.0\UniverseLabs.Oms.Migrations.AssemblyInfoInputs.cache
 D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Migrations\obj\Debug\net9.0\UniverseLabs.Oms.Migrations.AssemblyInfo.cs
 D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Migrations\obj\Debug\net9.0\UniverseLabs.Oms.Migrations.csproj.CoreCompileInputs.cache
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Migrations\obj\Debug\net9.0\UniverseLabs.Oms.Migrations.sourcelink.json
 D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Migrations\obj\Debug\net9.0\Universe.5A5E8A4A.Up2Date
 D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Migrations\obj\Debug\net9.0\UniverseLabs.Oms.Migrations.dll
 D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Migrations\obj\Debug\net9.0\refint\UniverseLabs.Oms.Migrations.dll

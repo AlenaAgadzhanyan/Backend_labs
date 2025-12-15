@@ -5,6 +5,7 @@ D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Models\obj\
 D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Models\obj\Debug\net9.0\UniverseLabs.Oms.Models.AssemblyInfoInputs.cache
 D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Models\obj\Debug\net9.0\UniverseLabs.Oms.Models.AssemblyInfo.cs
 D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Models\obj\Debug\net9.0\UniverseLabs.Oms.Models.csproj.CoreCompileInputs.cache
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Models\obj\Debug\net9.0\UniverseLabs.Oms.Models.sourcelink.json
 D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Models\obj\Debug\net9.0\UniverseLabs.Oms.Models.dll
 D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Models\obj\Debug\net9.0\refint\UniverseLabs.Oms.Models.dll
 D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms.Models\obj\Debug\net9.0\UniverseLabs.Oms.Models.pdb

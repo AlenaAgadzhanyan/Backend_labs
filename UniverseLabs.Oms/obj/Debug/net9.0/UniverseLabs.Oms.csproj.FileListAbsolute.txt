@@ -108,3 +108,13 @@ D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms\obj\Debug\n
 D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms\obj\Debug\net9.0\UniverseLabs.Oms.pdb
 D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms\obj\Debug\net9.0\UniverseLabs.Oms.genruntimeconfig.cache
 D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms\obj\Debug\net9.0\ref\UniverseLabs.Oms.dll
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms\obj\Debug\net9.0\UniverseLabs.Oms.sourcelink.json
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms\bin\Debug\net9.0\UniverseLabs.Oms.Consumer.deps.json
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms\bin\Debug\net9.0\UniverseLabs.Oms.Consumer.runtimeconfig.json
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms\bin\Debug\net9.0\UniverseLabs.Oms.Consumer.staticwebassets.endpoints.json
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms\bin\Debug\net9.0\UniverseLabs.Oms.Consumer.exe
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms\bin\Debug\net9.0\AutoFixture.dll
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms\bin\Debug\net9.0\Fare.dll
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms\bin\Debug\net9.0\UniverseLabs.Oms.Consumer.dll
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms\bin\Debug\net9.0\UniverseLabs.Oms.Consumer.pdb
+D:\Универ\4 курс\7 семестр\Backend\UniverseLabs.Oms\obj\Debug\net9.0\swae.build.ex.cache

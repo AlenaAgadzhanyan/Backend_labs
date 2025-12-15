@@ -12,6 +12,6 @@ public class V1AuditLogOrderRequest
     
         public long CustomerId { get; set; }
     
-        public string OrderStatus { get; set; }
+        public string OrderStatus { get; set; } = string.Empty;
     }
 }
