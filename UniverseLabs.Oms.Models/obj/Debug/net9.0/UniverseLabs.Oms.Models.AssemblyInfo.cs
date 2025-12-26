@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniverseLabs.Oms.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e955043320544654ca564d8b2146513a405fcfc0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2da1fff90bbeea74018ea49a21d2fc8da4e0c08")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniverseLabs.Oms.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniverseLabs.Oms.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

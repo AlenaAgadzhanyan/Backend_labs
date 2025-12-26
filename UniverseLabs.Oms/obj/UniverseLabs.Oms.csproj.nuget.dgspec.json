@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj": {}
+    "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj": {}
   },
   "projects": {
-    "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Common\\UniverseLabs.Common.csproj": {
+    "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Common\\UniverseLabs.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Common\\UniverseLabs.Common.csproj",
+        "projectUniqueName": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Common\\UniverseLabs.Common.csproj",
         "projectName": "UniverseLabs.Common",
-        "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Common\\UniverseLabs.Common.csproj",
+        "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Common\\UniverseLabs.Common.csproj",
         "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
-        "outputPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Common\\obj\\",
+        "outputPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -83,14 +83,14 @@
         }
       }
     },
-    "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Messages\\UniverseLabs.Messages.csproj": {
+    "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Messages\\UniverseLabs.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Messages\\UniverseLabs.Messages.csproj",
+        "projectUniqueName": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Messages\\UniverseLabs.Messages.csproj",
         "projectName": "UniverseLabs.Messages",
-        "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Messages\\UniverseLabs.Messages.csproj",
+        "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Messages\\UniverseLabs.Messages.csproj",
         "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
-        "outputPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Messages\\obj\\",
+        "outputPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Messages\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -105,8 +105,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj": {
-                "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj"
+              "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj": {
+                "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj"
               }
             }
           }
@@ -160,14 +160,14 @@
         }
       }
     },
-    "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Migrations\\UniverseLabs.Oms.Migrations.csproj": {
+    "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Migrations\\UniverseLabs.Oms.Migrations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Migrations\\UniverseLabs.Oms.Migrations.csproj",
+        "projectUniqueName": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Migrations\\UniverseLabs.Oms.Migrations.csproj",
         "projectName": "UniverseLabs.Oms.Migrations",
-        "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Migrations\\UniverseLabs.Oms.Migrations.csproj",
+        "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Migrations\\UniverseLabs.Oms.Migrations.csproj",
         "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
-        "outputPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Migrations\\obj\\",
+        "outputPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Migrations\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -271,14 +271,14 @@
         }
       }
     },
-    "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj": {
+    "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj",
+        "projectUniqueName": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj",
         "projectName": "UniverseLabs.Oms.Models",
-        "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj",
+        "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj",
         "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
-        "outputPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Models\\obj\\",
+        "outputPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -344,14 +344,14 @@
         }
       }
     },
-    "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj": {
+    "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj",
+        "projectUniqueName": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj",
         "projectName": "UniverseLabs.Oms",
-        "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj",
+        "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj",
         "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
-        "outputPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms\\obj\\",
+        "outputPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -366,17 +366,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Common\\UniverseLabs.Common.csproj": {
-                "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Common\\UniverseLabs.Common.csproj"
+              "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Common\\UniverseLabs.Common.csproj": {
+                "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Common\\UniverseLabs.Common.csproj"
               },
-              "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Messages\\UniverseLabs.Messages.csproj": {
-                "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Messages\\UniverseLabs.Messages.csproj"
+              "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Messages\\UniverseLabs.Messages.csproj": {
+                "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Messages\\UniverseLabs.Messages.csproj"
               },
-              "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Migrations\\UniverseLabs.Oms.Migrations.csproj": {
-                "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Migrations\\UniverseLabs.Oms.Migrations.csproj"
+              "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Migrations\\UniverseLabs.Oms.Migrations.csproj": {
+                "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Migrations\\UniverseLabs.Oms.Migrations.csproj"
               },
-              "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj": {
-                "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj"
+              "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj": {
+                "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj"
               }
             }
           }

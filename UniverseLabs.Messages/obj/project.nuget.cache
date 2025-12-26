@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TLsLJXHpyCs=",
+  "dgSpecHash": "Z+8S2B8H9FI=",
   "success": true,
-  "projectFilePath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Messages\\UniverseLabs.Messages.csproj",
+  "projectFilePath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Messages\\UniverseLabs.Messages.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Honor\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
     "C:\\Users\\Honor\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",

@@ -27,9 +27,6 @@ public class V1CreateAuditLogOrderRequestValidator: AbstractValidator<V1AuditLog
             
             RuleFor(x => x.CustomerId)
                 .GreaterThan(0);
-            
-            RuleFor(x => x.OrderStatus)
-                .NotEmpty();
         }
     }
 }

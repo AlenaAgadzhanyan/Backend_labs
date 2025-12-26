@@ -1,17 +1,18 @@
+using UniverseLabs.Oms.Models.Enums;
+
 namespace UniverseLabs.Oms.Models.Dto.V1.Requests;
 
 public class V1AuditLogOrderRequest
 {
     public LogOrder[] Orders { get; set; }
-    
+
     public class LogOrder
     {
         public long OrderId { get; set; }
-    
-        public long OrderItemId { get; set; }
-    
-        public long CustomerId { get; set; }
-    
-        public string OrderStatus { get; set; } = string.Empty;
+        public long? OrderItemId { get; set; }
+        public long? CustomerId { get; set; }
+        public OrderStatus? OrderStatus { get; set; }
+        public OrderStatus? OldStatus { get; set; }
+        public OrderStatus? NewStatus { get; set; }
     }
 }

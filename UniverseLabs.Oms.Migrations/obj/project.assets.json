@@ -3315,11 +3315,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Migrations\\UniverseLabs.Oms.Migrations.csproj",
+      "projectUniqueName": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Migrations\\UniverseLabs.Oms.Migrations.csproj",
       "projectName": "UniverseLabs.Oms.Migrations",
-      "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Migrations\\UniverseLabs.Oms.Migrations.csproj",
+      "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Migrations\\UniverseLabs.Oms.Migrations.csproj",
       "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
-      "outputPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Migrations\\obj\\",
+      "outputPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Migrations\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config"

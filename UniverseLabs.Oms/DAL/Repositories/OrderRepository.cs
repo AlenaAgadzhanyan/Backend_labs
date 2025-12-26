@@ -108,4 +108,26 @@ public class OrderRepository(UnitOfWork unitOfWork) : IOrderRepository
 
         return res.ToArray();
     }
+
+    public async Task BulkUpdateStatus(long[] orderIds, string newStatus, CancellationToken token)
+    {
+        var sql = @"
+            update orders
+            set
+                status = @NewStatus,
+                updated_at = @UpdatedAt
+            where id = ANY(@OrderIds);
+        ";
+
+        var conn = await unitOfWork.GetConnection(token);
+        await conn.ExecuteAsync(new CommandDefinition(
+            sql,
+            new
+            {
+                OrderIds = orderIds,
+                NewStatus = newStatus,
+                UpdatedAt = DateTimeOffset.UtcNow
+            },
+            cancellationToken: token));
+    }
 }

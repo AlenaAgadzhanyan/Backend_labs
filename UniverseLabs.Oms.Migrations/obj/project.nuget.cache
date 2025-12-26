@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U+zuUomCTco=",
+  "dgSpecHash": "OrAk1WhZdgI=",
   "success": true,
-  "projectFilePath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Migrations\\UniverseLabs.Oms.Migrations.csproj",
+  "projectFilePath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Migrations\\UniverseLabs.Oms.Migrations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Honor\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Honor\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MYYYJibEHqY=",
+  "dgSpecHash": "7AEezMJjNJk=",
   "success": true,
-  "projectFilePath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Common\\UniverseLabs.Common.csproj",
+  "projectFilePath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Common\\UniverseLabs.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Honor\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
     "C:\\Users\\Honor\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",

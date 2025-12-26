@@ -2,8 +2,10 @@ using UniverseLabs.Oms.Models.Dto.Common;
 
 namespace UniverseLabs.Messages;
 
-public class OrderCreatedMessage
+public class OrderCreatedMessage : BaseMessage
 {
+    public override string RoutingKey => "order.created";
+
     public long Id { get; set; }
     
     public long CustomerId { get; set; }

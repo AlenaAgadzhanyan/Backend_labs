@@ -16,5 +16,7 @@ public class OrderUnit
 
     public DateTimeOffset UpdatedAt { get; set; }
 
+    public string Status { get; set; }
+
     public OrderItemUnit[] OrderItems { get; set; }
 }

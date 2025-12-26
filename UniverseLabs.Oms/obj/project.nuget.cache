@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9kRc6CdPweE=",
+  "dgSpecHash": "jmKBKYENhkQ=",
   "success": true,
-  "projectFilePath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj",
+  "projectFilePath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Honor\\.nuget\\packages\\autofixture\\4.18.1\\autofixture.4.18.1.nupkg.sha512",
     "C:\\Users\\Honor\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
@@ -167,9 +167,9 @@
       "code": "NU1603",
       "level": "Warning",
       "message": "UniverseLabs.Oms depends on Dapper (>= 2.1.6) but Dapper 2.1.6 was not found. Dapper 2.1.11 was resolved instead.",
-      "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj",
+      "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj",
+      "filePath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj",
       "libraryId": "Dapper",
       "targetGraphs": [
         "net9.0"

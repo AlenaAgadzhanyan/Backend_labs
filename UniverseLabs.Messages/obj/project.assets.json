@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Messages\\UniverseLabs.Messages.csproj",
+      "projectUniqueName": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Messages\\UniverseLabs.Messages.csproj",
       "projectName": "UniverseLabs.Messages",
-      "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Messages\\UniverseLabs.Messages.csproj",
+      "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Messages\\UniverseLabs.Messages.csproj",
       "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
-      "outputPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Messages\\obj\\",
+      "outputPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Messages\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj": {
-              "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj"
+            "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj": {
+              "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj"
             }
           }
         }

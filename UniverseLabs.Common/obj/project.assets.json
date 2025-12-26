@@ -60,11 +60,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Common\\UniverseLabs.Common.csproj",
+      "projectUniqueName": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Common\\UniverseLabs.Common.csproj",
       "projectName": "UniverseLabs.Common",
-      "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Common\\UniverseLabs.Common.csproj",
+      "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Common\\UniverseLabs.Common.csproj",
       "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
-      "outputPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Common\\obj\\",
+      "outputPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y+o/ozgmJXc=",
+  "dgSpecHash": "vgD4EFTRoS8=",
   "success": true,
-  "projectFilePath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Consumer\\UniverseLabs.Oms.Consumer.csproj",
+  "projectFilePath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Consumer\\UniverseLabs.Oms.Consumer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Honor\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Honor\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -114,9 +114,9 @@
       "code": "NU1603",
       "level": "Warning",
       "message": "UniverseLabs.Oms.Consumer depends on Dapper (>= 2.1.6) but Dapper 2.1.6 was not found. Dapper 2.1.11 was resolved instead.",
-      "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Consumer\\UniverseLabs.Oms.Consumer.csproj",
+      "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Consumer\\UniverseLabs.Oms.Consumer.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Универ\\4 курс\\7 семестр\\Backend\\UniverseLabs.Oms.Consumer\\UniverseLabs.Oms.Consumer.csproj",
+      "filePath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Consumer\\UniverseLabs.Oms.Consumer.csproj",
       "libraryId": "Dapper",
       "targetGraphs": [
         "net9.0"

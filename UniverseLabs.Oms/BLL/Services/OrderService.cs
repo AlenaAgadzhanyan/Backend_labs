@@ -5,6 +5,7 @@ using UniverseLabs.Oms.DAL;
 using UniverseLabs.Oms.DAL.Interfaces;
 using UniverseLabs.Oms.DAL.Models;
 using UniverseLabs.Messages;
+using UniverseLabs.Oms.Models.Enums;
 using ModelsDtoCommon = UniverseLabs.Oms.Models.Dto.Common;
 
 namespace UniverseLabs.Oms.BLL.Services;
@@ -22,11 +23,6 @@ public class OrderService(UnitOfWork unitOfWork, IOrderRepository orderRepositor
 
         try
         {
-            // тут ваш бизнес код по инсерту данных в БД
-            // нужно положить в БД заказы(orders), а потом их позиции (orderItems)
-            // помните, что каждый orderItem содержит ссылку на order (столбец order_id)
-            // OrderItem-ов может быть несколько
-
             V1OrderDal[] orderDals = orderUnits.Select(o => new V1OrderDal
             {
                 Id = o.Id,
@@ -81,7 +77,7 @@ public class OrderService(UnitOfWork unitOfWork, IOrderRepository orderRepositor
                 }).ToArray()
             }).ToArray();
             
-            await _rabbitMqService.Publish(messages, settings.Value.OrderCreatedQueue, token);            
+            await _rabbitMqService.Publish(messages, token);
             await transaction.CommitAsync(token);
             return Map(orders, orderItemLookup);
         }
@@ -92,6 +88,37 @@ public class OrderService(UnitOfWork unitOfWork, IOrderRepository orderRepositor
         }
     }
     
+    public async Task BatchUpdateStatus((long Id, OrderStatus Status)[] orders, CancellationToken token)
+    {
+        await using var transaction = await unitOfWork.BeginTransactionAsync(token);
+        try
+        {
+            var ordersByStatus = orders.GroupBy(o => o.Status);
+
+            foreach (var group in ordersByStatus)
+            {
+                var orderIds = group.Select(o => o.Id).ToArray();
+                var status = group.Key.ToString();
+                await orderRepository.BulkUpdateStatus(orderIds, status, token);
+            }
+
+            var messages = orders.Select(o => new OmsOrderStatusChangedMessage
+            {
+                OrderId = o.Id,
+                NewStatus = o.Status
+            }).ToArray();
+
+            await _rabbitMqService.Publish(messages, token);
+
+            await transaction.CommitAsync(token);
+        }
+        catch (Exception)
+        {
+            await transaction.RollbackAsync(token);
+            throw;
+        }
+    }
+
     /// <summary>
     /// Метод получения заказов
     /// </summary>
@@ -124,6 +151,30 @@ public class OrderService(UnitOfWork unitOfWork, IOrderRepository orderRepositor
         return Map(orders, orderItemLookup);
     }
     
+    public async Task UpdateOrdersStatus(long[] orderIds, string newStatus, CancellationToken token)
+    {
+        await using var transaction = await unitOfWork.BeginTransactionAsync(token);
+        try
+        {
+            await orderRepository.BulkUpdateStatus(orderIds, newStatus, token);
+            
+            var messages = orderIds.Select(id => new OmsOrderStatusChangedMessage
+            {
+                OrderId = id,
+                NewStatus = (OrderStatus)Enum.Parse(typeof(OrderStatus), newStatus, true)
+            }).ToArray();
+
+            await _rabbitMqService.Publish(messages, token);
+
+            await transaction.CommitAsync(token);
+        }
+        catch (Exception)
+        {
+            await transaction.RollbackAsync(token);
+            throw;
+        }
+    }
+    
     private OrderUnit[] Map(V1OrderDal[] orders, ILookup<long, V1OrderItemDal> orderItemLookup = null)
     {
         return orders.Select(x => new OrderUnit
@@ -135,6 +186,7 @@ public class OrderService(UnitOfWork unitOfWork, IOrderRepository orderRepositor
             TotalPriceCurrency = x.TotalPriceCurrency,
             CreatedAt = x.CreatedAt,
             UpdatedAt = x.UpdatedAt,
+            Status = x.Status,
             OrderItems = orderItemLookup?[x.Id].Select(o => new OrderItemUnit
             {
                 Id = o.Id,

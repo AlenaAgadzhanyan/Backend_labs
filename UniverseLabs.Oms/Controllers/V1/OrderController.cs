@@ -3,6 +3,7 @@ using UniverseLabs.Oms.Models.Dto.V1.Requests;
 using UniverseLabs.Oms.Models.Dto.V1.Responses;
 using UniverseLabs.Oms.BLL.Models;
 using UniverseLabs.Oms.BLL.Services;
+using UniverseLabs.Oms.Models.Enums;
 using UniverseLabs.Oms.Validators;
 
 namespace UniverseLabs.Oms.Controllers.V1;
@@ -67,6 +68,20 @@ public class OrderController(OrderService orderService, ValidatorFactory validat
         });
     }
     
+    [HttpPut("status")]
+    public async Task<ActionResult<V1UpdateOrderStatusResponse>> V1UpdateOrdersStatus([FromBody] V1UpdateOrdersStatusRequest request, CancellationToken token)
+    {
+        var validationResult = await validatorFactory.GetValidator<V1UpdateOrdersStatusRequest>().ValidateAsync(request, token);
+        if (!validationResult.IsValid)
+        {
+            return BadRequest(validationResult.ToDictionary());
+        }
+
+        await orderService.UpdateOrdersStatus(request.OrderIds, request.NewStatus.ToString(), token);
+
+        return Ok(new V1UpdateOrderStatusResponse());
+    }
+
     private Models.Dto.Common.OrderUnit[] Map(OrderUnit[] orders)
     {
         return orders.Select(x => new Models.Dto.Common.OrderUnit
@@ -78,6 +93,7 @@ public class OrderController(OrderService orderService, ValidatorFactory validat
             TotalPriceCurrency = x.TotalPriceCurrency,
             CreatedAt = x.CreatedAt,
             UpdatedAt = x.UpdatedAt,
+            Status = (OrderStatus)Enum.Parse(typeof(OrderStatus), x.Status, true),
             OrderItems = x.OrderItems.Select(p => new Models.Dto.Common.OrderItemUnit
             {
                 Id = p.Id,

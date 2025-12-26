@@ -6,13 +6,13 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.VisualBasic.CompilerServices;
 using UniverseLabs.Oms.BLL.Services;
-using UniverseLabs.Oms.Config;
 using UniverseLabs.Oms.DAL;
 using UniverseLabs.Oms.DAL.Interfaces;
 using UniverseLabs.Oms.DAL.Repositories;
 using UniverseLabs.Oms.Validators;
 using UniverseLabs.Common;
 using UniverseLabs.Oms.Jobs;
+using UniverseLabs.Oms.Config;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,7 +28,7 @@ builder.Services.AddScoped<IOrderItemRepository, OrderItemRepository>();
 
 builder.Services.AddScoped<AuditLogOrderService>();
 builder.Services.AddScoped<OrderService>();
-builder.Services.AddScoped<RabbitMqService>();
+builder.Services.AddSingleton<RabbitMqService>();
 
 builder.Services.AddValidatorsFromAssemblyContaining(typeof(Program));
 builder.Services.AddScoped<ValidatorFactory>();

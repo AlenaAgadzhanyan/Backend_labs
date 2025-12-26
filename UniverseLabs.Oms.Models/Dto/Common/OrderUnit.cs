@@ -1,3 +1,5 @@
+using UniverseLabs.Oms.Models.Enums;
+
 namespace UniverseLabs.Oms.Models.Dto.Common;
 
 public class OrderUnit
@@ -15,6 +17,8 @@ public class OrderUnit
     public DateTimeOffset CreatedAt { get; set; }
 
     public DateTimeOffset UpdatedAt { get; set; }
+
+    public OrderStatus Status { get; set; }
 
     public OrderItemUnit[] OrderItems { get; set; }
 }
