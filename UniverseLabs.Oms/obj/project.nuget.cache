@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jmKBKYENhkQ=",
+  "dgSpecHash": "E+8qfU1ebK0=",
   "success": true,
   "projectFilePath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj",
   "expectedPackageFiles": [
@@ -156,21 +156,35 @@
     "C:\\Users\\Honor\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Honor\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\Honor\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Honor\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Honor\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
-    "C:\\Users\\Honor\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
-    "C:\\Users\\Honor\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512",
-    "C:\\Users\\Honor\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.11\\microsoft.netcore.app.host.win-x64.9.0.11.nupkg.sha512"
+    "C:\\Users\\Honor\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1603",
       "level": "Warning",
-      "message": "UniverseLabs.Oms depends on Dapper (>= 2.1.6) but Dapper 2.1.6 was not found. Dapper 2.1.11 was resolved instead.",
-      "projectPath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms\\UniverseLabs.Oms.csproj",
+      "message": "UniverseLabs.Oms зависит от Dapper (>= 2.1.6), но версия Dapper 2.1.6 не найдена. Использовалась версия Dapper 2.1.11.",
       "libraryId": "Dapper",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "У пакета \"System.Net.Http\" 4.3.0 есть известная уязвимость https://github.com/advisories/GHSA-7jgj-8wvc-jh57 (уровень серьезности: высокий уровень)",
+      "libraryId": "System.Net.Http",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "У пакета \"System.Text.RegularExpressions\" 4.3.0 есть известная уязвимость https://github.com/advisories/GHSA-cmhx-cq75-c4mj (уровень серьезности: высокий уровень)",
+      "libraryId": "System.Text.RegularExpressions",
       "targetGraphs": [
         "net9.0"
       ]

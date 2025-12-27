@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o7ghrY1gmhM=",
+  "dgSpecHash": "2sJO8YwcZ2w=",
   "success": true,
   "projectFilePath": "D:\\Универ\\4 курс\\7 семестр\\Backend_labs\\UniverseLabs.Oms.Models\\UniverseLabs.Oms.Models.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Honor\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.11\\microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
-    "C:\\Users\\Honor\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.11\\microsoft.windowsdesktop.app.ref.9.0.11.nupkg.sha512",
-    "C:\\Users\\Honor\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.11\\microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,3 +1,4 @@
+
 using AutoFixture;
 using UniverseLabs.Oms.BLL.Models;
 using UniverseLabs.Oms.BLL.Services;
@@ -11,6 +12,8 @@ public class OrderGenerator(IServiceProvider serviceProvider) : BackgroundServic
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
+        await Task.Delay(5000, stoppingToken); 
+
         var fixture = new Fixture();
         using var scope = serviceProvider.CreateScope();
         var orderService = scope.ServiceProvider.GetRequiredService<OrderService>();

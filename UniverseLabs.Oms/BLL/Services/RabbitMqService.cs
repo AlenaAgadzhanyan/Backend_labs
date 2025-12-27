@@ -14,8 +14,8 @@ public class RabbitMqService(IOptions<RabbitMqSettings> settings) : IDisposable
         Port = settings.Value.Port
     };
     
-    private IConnection _connection;
-    private IChannel _channel;
+    private IConnection? _connection;
+    private IChannel? _channel;
     
     private async Task<IChannel> Configure(CancellationToken token)
     {
@@ -31,7 +31,8 @@ public class RabbitMqService(IOptions<RabbitMqSettings> settings) : IDisposable
      
         foreach (var mapping in settings.Value.ExchangeMappings)
         {
-            var args = mapping.DeadLetter is null ? null : new Dictionary<string, object>
+            await _channel.QueueDeleteAsync(mapping.Queue, cancellationToken: token);
+            var args = mapping.DeadLetter is null ? null : new Dictionary<string, object?>
             {
                 { "x-dead-letter-exchange", mapping.DeadLetter.Dlx },
                 { "x-dead-letter-routing-key", mapping.DeadLetter.RoutingKey }

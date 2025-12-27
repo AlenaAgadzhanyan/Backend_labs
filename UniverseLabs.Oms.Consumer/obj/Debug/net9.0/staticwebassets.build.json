@@ -1,1 +1,12 @@
-{"Version":1,"Hash":"1uN6uJ8NvmCekz3hcenXmb8LSg5lWVWzTtX/h5jo+QE=","Source":"UniverseLabs.Oms.Consumer","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "IwpgP47rmoOrIMSLVZC99ZCrHRB69hiQZa5DegjIV/c=",
+  "Source": "UniverseLabs.Oms.Consumer",
+  "BasePath": "_content/UniverseLabs.Oms.Consumer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

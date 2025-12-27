@@ -24,9 +24,9 @@ public class AuditLogOrderController(AuditLogOrderService auditService, Validato
         var res = await auditService.BatchInsert(request.Orders.Select(x => new AuditLogOrderUnit
         {
             OrderId = x.OrderId,
-            OrderItemId = x.OrderItemId,
-            CustomerId = x.CustomerId,
-            OrderStatus = x.OrderStatus
+            OrderItemId = x.OrderItemId.GetValueOrDefault(),
+            CustomerId = x.CustomerId.GetValueOrDefault(),
+            OrderStatus = x.OrderStatus.HasValue ? x.OrderStatus.Value.ToString() : string.Empty
         }).ToArray(), token);
         
         return Ok(new V1AuditLogOrderResponse()

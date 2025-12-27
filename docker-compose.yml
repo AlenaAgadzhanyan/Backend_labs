@@ -66,7 +66,7 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://+:8080
       - ConnectionStrings__DefaultConnection=Host=pgbouncer;Port=6432;Database=postgres;Username=user;Password=mypassword
-      - RabbitMQ__Host=rabbitmq
+      - RabbitMQ__Host=${RABBITMQ_HOST:-rabbitmq}
       - RabbitMQ__Port=5672
     depends_on:
       - pgbouncer
@@ -80,7 +80,7 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ConnectionStrings__DefaultConnection=Host=pgbouncer;Port=6432;Database=postgres;Username=user;Password=mypassword
-      - RabbitMQ__Host=rabbitmq
+      - RabbitMQ__Host=${RABBITMQ_HOST:-rabbitmq}
       - RabbitMQ__Port=5672
     deploy:
       replicas: 5

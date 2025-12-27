@@ -63,7 +63,7 @@ public abstract class BaseBatchMessageConsumer<T> : IHostedService where T : cla
             queueArgs["x-dead-letter-exchange"] = _topicSettings.DeadLetter.Dlx;
             queueArgs["x-dead-letter-routing-key"] = _topicSettings.DeadLetter.RoutingKey;
         }
-
+        await _channel.QueueDeleteAsync(_topicSettings.Queue, cancellationToken: token);
         await _channel.QueueDeclareAsync(
             queue: _topicSettings.Queue, 
             durable: false, 
